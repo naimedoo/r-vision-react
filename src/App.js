@@ -28,19 +28,18 @@ export default function App() {
      setRegion(region)
    })
 })
-const click = () => {
-    
-}
+
    return (
      <>
+      <Button />
+      <Button />
+      <Button />
      <div>
         <p>{name}</p>
         <p>{capital}</p>
         <img src={flag}/>
         <p>{population}</p>
         <p>{region}</p>
-        {/* <button onClick={click}>cliquez</button> */}
-        <Button />
      </div>
      </>
    )
